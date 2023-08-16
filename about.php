@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>MOBILE DOORSTEP REPAIR</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@100;200;300;400;600;7000&disaplay=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+        awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.php"><img src="logo.png">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
+                    <li><a href="services.php">SERVICES</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are a passionate team of tech enthusiasts with years of experience in mobile device repair</h1>
+                <p>we are committed to delivering fast, reliable, and cost-effective mobile repair solutions. We strive to restore your device to its optimal performance so you can get back to using it seamlessly in no time.For any inquiries or to schedule a repair, feel free to contact us. Our friendly customer support team is always ready to assist you!</p>
+                <a href="services.php" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="C:\Users\Harshi\OneDrive\Desktop\website\banner2.png">
+            </div>
+        </div>
+    </section>
+
+<section class="footer">
+        <div class="title-text">
+            <h1>CONTACT</h1>
+            <p>Can also visit our stores</p>
+        </div>
+</section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    </body>
+</html>
+
